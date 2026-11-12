@@ -21,6 +21,8 @@
     <fxgl.version>25.0.1</fxgl.version>
     <litiengine.version>0.12.0</litiengine.version>
     <org.graphstream.version>2.0</org.graphstream.version>
+    <mp3agic.version>0.9.1</mp3agic.version>
+    <metadata-extractor.version>2.21.0</metadata-extractor.version>
     <maven-compiler-plugin.version>3.16.0</maven-compiler-plugin.version>
   </properties>
 
@@ -78,6 +80,20 @@
       <artifactId>gdx-platform</artifactId>
       <version>${libgdx.version}</version>
       <classifier>natives-desktop</classifier>
+    </dependency>
+
+    <!-- MP3 metadata -->
+    <dependency>
+      <groupId>com.mpatric</groupId>
+      <artifactId>mp3agic</artifactId>
+      <version>${mp3agic.version}</version>
+    </dependency>
+
+    <!-- Image metadata (EXIF/IPTC/XMP) -->
+    <dependency>
+      <groupId>com.drewnoakes</groupId>
+      <artifactId>metadata-extractor</artifactId>
+      <version>${metadata-extractor.version}</version>
     </dependency>
 
     <!-- jMonkeyEngine -->

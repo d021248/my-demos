@@ -95,6 +95,9 @@ classpath:/home/d021248/.m2/repository/org/lwjgl/lwjgl-stb/3.3.3/lwjgl-stb-3.3.3
 classpath:/home/d021248/.m2/repository/com/badlogicgames/jlayer/jlayer/1.0.1-gdx/jlayer-1.0.1-gdx.jar	89845:1368961897000
 classpath:/home/d021248/.m2/repository/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar	99701:1662011836000
 classpath:/home/d021248/.m2/repository/com/badlogicgames/gdx/gdx-platform/1.14.2/gdx-platform-1.14.2-natives-desktop.jar	526742:1787824419190
+classpath:/home/d021248/.m2/repository/com/mpatric/mp3agic/0.9.1/mp3agic-0.9.1.jar	71380:1764695818389
+classpath:/home/d021248/.m2/repository/com/drewnoakes/metadata-extractor/2.21.0/metadata-extractor-2.21.0.jar	752205:1784687767000
+classpath:/home/d021248/.m2/repository/com/adobe/xmp/xmpcore/6.1.11/xmpcore-6.1.11.jar	142953:1764695818914
 classpath:/home/d021248/.m2/repository/org/jmonkeyengine/jme3-core/3.9.0-stable/jme3-core-3.9.0-stable.jar	2147193:1787824422288
 classpath:/home/d021248/.m2/repository/org/jmonkeyengine/jme3-desktop/3.9.0-stable/jme3-desktop-3.9.0-stable.jar	237276:1787824419061
 classpath:/home/d021248/.m2/repository/org/jmonkeyengine/jme3-lwjgl3/3.9.0-stable/jme3-lwjgl3-3.9.0-stable.jar	154672:1787824419015
