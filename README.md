@@ -2,6 +2,7 @@
 
 [![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk)](https://openjdk.org/projects/jdk/25/)
 [![Build](https://img.shields.io/badge/Build-Maven-blue?logo=apachemaven)](https://maven.apache.org/)
+[![CI](https://github.com/d021248/my-demos/actions/workflows/ci.yml/badge.svg)](https://github.com/d021248/my-demos/actions/workflows/ci.yml)
 
 Interactive Java demos — GraphStream graph visualizations and game/terminal experiments.
 Part of the [`d021248`](https://github.com/d021248) learning suite alongside
