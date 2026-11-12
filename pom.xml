@@ -14,7 +14,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>25</java.version>
-    <spotless-maven-plugin.version>3.10.4</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>3.11.0</spotless-maven-plugin.version>
     <googleJavaFormat.version>1.30.0</googleJavaFormat.version>
     <libgdx.version>1.14.2</libgdx.version>
     <jme3.version>3.9.0-stable</jme3.version>
