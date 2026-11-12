@@ -1,0 +1,71 @@
+/* Canvas */
+graph {
+    fill-color: #0d1117;
+}
+
+/* Intersections (nodes) - kept nearly invisible, they clutter a street map */
+node {
+    size: 2px;
+    fill-color: #21262d;
+    stroke-mode: none;
+    text-mode: hidden;
+    z-index: 1;
+}
+
+/* Default road (residential / service / unclassified)
+   Colour dynamically mapped from ui.color (0.0 = slow, 1.0 = fast). */
+edge {
+    shape: line;
+    size: 1px;
+    fill-mode: dyn-plain;
+    fill-color: #2196f3, #ff9800, #f44336;
+    arrow-size: 5px, 2px;
+    z-index: 0;
+}
+
+/* Speed-width classes - only set size so they compose with road-type classes */
+edge.medium {
+    size: 2px;
+}
+
+edge.fast {
+    size: 4px;
+    shadow-mode: plain;
+    shadow-color: #111111;
+    shadow-width: 2px;
+    shadow-offset: 0px, 0px;
+}
+
+/* Special road types - override colour; size may be overridden by speed class */
+edge.bridge {
+    size: 3px;
+    fill-mode: plain;
+    fill-color: #79c0ff;
+    stroke-mode: plain;
+    stroke-color: #388bfd;
+    stroke-width: 1px;
+    z-index: 2;
+}
+
+/* Tunnels look faded/underground - dark grey, thin */
+edge.tunnel {
+    size: 1px;
+    fill-mode: plain;
+    fill-color: #3d444d;
+    stroke-mode: plain;
+    stroke-color: #545d68;
+    stroke-width: 1px;
+    z-index: 0;
+}
+
+/* Tollways stand out with a golden colour */
+edge.tollway {
+    size: 3px;
+    fill-mode: plain;
+    fill-color: #d29922;
+    stroke-mode: plain;
+    stroke-color: #e3b341;
+    stroke-width: 1px;
+    z-index: 2;
+}
+
