@@ -70,14 +70,24 @@ banners for logical blocks.
 src/main/java/d021248/mytry/
 │
 ├── algorithms/
-│   └── graphstream/         GraphStream visualizations (Barabasi-Albert, Collatz, class hierarchy)
-│       └── streetmap/       Street map viewer — DGS data files + Swing display
+│   ├── graphstream/         GraphStream visualizations (Barabasi-Albert, Collatz, class hierarchy)
+│   │   └── streetmap/       Street map viewer — DGS data files + Swing display
+│   └── visualization/       Algorithm visualizers: sorting, pathfinding, cellular automata,
+│                            neural network, genetic algorithm, Q-learning, maze, wave physics (16 visualizers)
 │
-└── demos/
-    ├── games/               Evolution sim, Game of Life, FXGL, LibGDX, jMonkeyEngine, LITIEngine
-    ├── libgdx/              LibGDX space shooter
-    ├── quiz/                Java quiz questions
-    └── terminal/            Terminal UI: ASCII art, bar charts, Julia set, emoji rain, matrix rain
+├── core/lang/gatherers/compress/
+│   ├── lz77/                LZ77Token — local copy (no cross-repo dep)
+│   └── lzw/                 LZWToken — local copy (no cross-repo dep)
+│
+├── demos/
+│   ├── games/               Evolution sim, Game of Life, FXGL, LibGDX, jMonkeyEngine, LITIEngine
+│   ├── libgdx/              LibGDX space shooter
+│   ├── quiz/                Java quiz questions
+│   └── terminal/            Terminal UI: ASCII art, bar charts, Julia set, emoji rain, matrix rain
+│
+└── media/
+    ├── audio/               MP3 analytics: Mp3Demo, Mp3Scanner, Mp3Analytics, Mp3Metadata
+    └── image/               Image metadata viewer (EXIF/IPTC/XMP), Swing UI
 ```
 
 ---
