@@ -59,12 +59,6 @@ public final class VisualizationLauncher extends JFrame {
             "Ripple effects, gravity simulations, double pendulums, and springs",
             WavePhysicsVisualizer::new));
 
-    buttonsPanel.add(
-        createLauncherButton(
-            "✨ Particle Systems",
-            "Fireworks, flocking behavior (Boids), gravity wells, and snowfall",
-            ParticleSystemsVisualizer::new));
-
     // Advanced Algorithms
     buttonsPanel.add(
         createLauncherButton(
