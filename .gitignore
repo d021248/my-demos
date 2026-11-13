@@ -1,2 +1,12 @@
 target/
 .mvn/
+
+# SAP VS Code extension artifacts
+.github/modernize/
+.github/java-upgrade/
+.github/appmod/
+.github/appcat/
+.github/appmod-java/
+.idea/
+*.iml
+.DS_Store
