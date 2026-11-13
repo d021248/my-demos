@@ -1,6 +1,11 @@
 name: Java CI
 
 on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - '**.md'
+      - '.github/dependabot.yml'
   pull_request:
     branches: [ main, master, develop ]
     paths-ignore:
