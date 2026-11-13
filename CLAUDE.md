@@ -5,6 +5,10 @@
 Interactive demos — GraphStream graph visualizations and game/terminal experiments.
 Java 25, Maven. Not curriculum code; nothing here is tested automatically.
 
+> **Architectural excellence is not a means but a goal.**
+> No ad-hoc solutions. No classes with more than one responsibility. No hidden side effects.
+> No premature abstractions. Every design decision is explicit and justified — the code is the learning material.
+
 Sibling repos: [my-try](../my-try) (core Java learning), [my-lisp](../my-lisp), [my-downloads](../my-downloads).
 
 ---
